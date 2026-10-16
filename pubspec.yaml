@@ -1,0 +1,74 @@
+name: macelectricos
+description: Aplicación profesional para gestión de infraestructura eléctrica y trabajos de campo
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Estado y arquitectura
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  freezed_annotation: ^2.4.2
+  json_annotation: ^4.9.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+
+  # Firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_storage: ^11.6.5
+  firebase_messaging: ^14.7.15
+
+  # Almacenamiento local offline
+  shared_preferences: ^2.2.3
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.2
+
+  # Mapas y ubicación
+  google_maps_flutter: ^2.6.0
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+
+  # Utilidades
+  uuid: ^4.4.0
+  intl: ^0.20.3
+  image_picker: ^1.1.1
+  permission_handler: ^11.3.0
+  connectivity_plus: ^7.0.0
+  workmanager: ^0.10.0
+
+  # UI
+  fl_chart: ^0.68.0
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10
+
+  # Navegación
+  go_router: ^13.2.0
+
+  # Logging
+  logger: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.4.0
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.9
+  isar_generator: ^3.1.0+1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema aplicado a la ventana de Android mientras el proceso inicia
+         cuando el Modo Oscuro del sistema está apagado -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Muestra un splash screen en la actividad.
+             Se elimina automáticamente cuando el motor de Flutter dibuja su primer frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Tema aplicado a la ventana de Android en cuanto el proceso ha iniciado.
+         Determina el color de la ventana mientras la UI de Flutter se inicializa,
+         así como el fondo detrás de la UI de Flutter mientras corre.
+
+         Este tema solo se usa a partir de la versión 2 del embedding de Android. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

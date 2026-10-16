@@ -1,0 +1,2 @@
+C:/omnirouter test/ProyectosEspeciales (SALIDA)/Macelectricos/android/app/.cxx/debug/1x6i6l6f/x86_64/CMakeFiles/edit_cache.dir
+C:/omnirouter test/ProyectosEspeciales (SALIDA)/Macelectricos/android/app/.cxx/debug/1x6i6l6f/x86_64/CMakeFiles/rebuild_cache.dir
